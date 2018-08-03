@@ -9,9 +9,9 @@ packNGo(buildInfo,{'packType','flat','ignoreFileMissing',true})
 warning on
 
 %% Move and extract the ZIP to target folder
-targetDir = '/home/sebastian/Workspace/matlab_argos/examples/controllers/matlab_test';
+targetDir = '/home/sebastian/Workspace/simulink-argos/examples/controllers/matlab_test';
 filename = [mdlName '.zip'];
-movefile(fullfile(filename),fullfile(targetDir,filename));
+movefile(filename,fullfile(targetDir,filename));
 
 % Remove the folder if it already exists
 if isfolder(fullfile(targetDir,mdlName))

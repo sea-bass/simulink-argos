@@ -6,9 +6,9 @@
 //
 // Code generated for Simulink model 'testArgosModel'.
 //
-// Model version                  : 1.27
+// Model version                  : 1.28
 // Simulink Coder version         : 9.0 (R2018b) 24-May-2018
-// C/C++ source code generated on : Fri Aug  3 09:36:33 2018
+// C/C++ source code generated on : Fri Aug  3 10:22:39 2018
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -49,8 +49,8 @@ typedef struct {
   ARGoSDifferentialSteering_tes_T obj; // '<Root>/MATLAB System'
   ARGoSFootBotProximitySensor_t_T obj_n;// '<Root>/MATLAB System1'
   uint8_T is_active_c3_testArgosModel; // '<Root>/Controller Chart'
-  uint8_T is_Turn;                     // '<Root>/Controller Chart'
   uint8_T is_Main;                     // '<Root>/Controller Chart'
+  uint8_T is_Turn;                     // '<Root>/Controller Chart'
 } DW_testArgosModel_T;
 
 // Real-time Model Data Structure
