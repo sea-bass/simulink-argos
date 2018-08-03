@@ -20,15 +20,15 @@ go to the root directory of this repository, and enter:
 
 To produce debuggable code (slow), type:
 
-$ cmake -DCMAKE_BUILD_TYPE=Debug ..
+```$ cmake -DCMAKE_BUILD_TYPE=Debug ..```
 
 To produce fast but not debuggable code, type:
 
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
+```$ cmake -DCMAKE_BUILD_TYPE=Release ..```
 
 Finally, launch the compilation with the command:
 
-$ make
+```$ make```
 
 If you find no error, you're ready to go to the next phase.
 
