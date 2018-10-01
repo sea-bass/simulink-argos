@@ -5,9 +5,11 @@ Run the following script to open an example model.
 
 ```>> startupEnvironment```
 
-To generate code, use the MATLAB script below.
+To generate code from a model, select "Code > C/C++ Code > Build Model"
 
-```>> exportGeneratedCode```
+To create a new model, enter
+
+```>> createARGoSModel```
 
 ### Compiling Examples ###
 

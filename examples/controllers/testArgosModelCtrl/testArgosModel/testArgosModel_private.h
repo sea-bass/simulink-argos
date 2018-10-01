@@ -6,9 +6,9 @@
 //
 // Code generated for Simulink model 'testArgosModel'.
 //
-// Model version                  : 1.33
+// Model version                  : 1.34
 // Simulink Coder version         : 9.0 (R2018b) 24-May-2018
-// C/C++ source code generated on : Mon Oct  1 11:04:37 2018
+// C/C++ source code generated on : Mon Oct  1 11:23:05 2018
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Intel->x86-64 (Windows64)
