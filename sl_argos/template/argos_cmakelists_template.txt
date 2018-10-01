@@ -1,0 +1,6 @@
+add_library($CTRL_NAME$ MODULE $CTRL_NAME$.h $CTRL_NAME$.cpp $SRC_LIST$)
+include_directories($MDL_NAME$)
+target_link_libraries($CTRL_NAME$
+  argos3core_simulator
+  argos3plugin_simulator_footbot
+  argos3plugin_simulator_genericrobot)

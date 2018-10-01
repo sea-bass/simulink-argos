@@ -5,7 +5,7 @@
   <!-- * General configuration * -->
   <!-- ************************* -->
   <framework>
-    <system threads="4" />
+    <system threads="-1" />
     <experiment length="0"
                 ticks_per_second="10"
                 random_seed="124" />
@@ -16,8 +16,8 @@
   <!-- *************** -->
   <controllers>
 
-    <matlab_test_controller id="mtc"
-                                  library="build/controllers/matlab_test/libmatlab_test">
+    <testArgosModelCtrl_controller id="mtc"
+                                  library="build/controllers/testArgosModelCtrl/libtestArgosModelCtrl">
       <actuators>
         <differential_steering implementation="default" />
       </actuators>
@@ -25,7 +25,7 @@
         <footbot_proximity implementation="default" show_rays="true" />
       </sensors>
       <params />
-    </matlab_test_controller>
+    </testArgosModelCtrl_controller>
 
   </controllers>
 

@@ -49,8 +49,8 @@
         - library: the path to the compiled library containing you
           controller.
     -->
-    <matlab_test_controller id="mtc"
-     library="build/controllers/matlab_test/libmatlab_test">
+    <testArgosModelCtrl_controller id="mtc"
+     library="build/controllers/testArgosModelCtrl/libtestArgosModelCtrl">
       <!--
           The <actuators> section contains a list of the actuators used by
           this controller.
@@ -93,7 +93,7 @@
           controllers/footbot_diffusion/footbot_diffusion.h.
       -->
       <params/>
-    </matlab_test_controller>
+    </testArgosModelCtrl_controller>
 
   </controllers>
 
